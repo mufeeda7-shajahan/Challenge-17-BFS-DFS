@@ -1,0 +1,27 @@
+CHALLENGE 17: FILE SYSTEM REPRESENTATION AND SEARCH USING BFS AND DFS
+
+Sample Input:
+Enter number of nodes: 5
+Enter file/directory names (single words):
+Root
+Docs
+Images
+Report
+Photo
+Enter number of connections: 4
+Enter connected node names: Root Docs
+Enter connected node names: Root Images
+Enter connected node names: Docs Report
+Enter connected node names: Images Photo
+Enter starting node: Root
+Enter file to search: Photo
+
+Sample Output:
+BFS traversal: Root Docs Images Report Photo
+BFS result: File found
+
+DFS traversal: Root Docs Report Images Photo
+DFS result: File found
+
+Result:
+The target file Photo was found using both BFS and DFS.
